@@ -1,0 +1,17 @@
+# Purpose: keep build output, local SDK paths and IDE files out of git.
+# Version: v2 (2026-10-18) - v2: Python bytecode caches.
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+*.apk
+*.keystore
+*.jks
+tools/data/raw/
+tools/*.log
+__pycache__/
+*.pyc
